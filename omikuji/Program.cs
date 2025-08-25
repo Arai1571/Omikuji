@@ -34,7 +34,7 @@ Random rand = new Random();
 
 //大吉を引くまで繰り返すループ
 bool end = false; //終わりフラグ
-while (end == false)
+while(!end) //endはfalseであるかどうか→成立していれば繰り返し　while (end == false)
 {
     int result = rand.Next(0, 5);//０以上５未満のランダムを取得して変数resultに代入
                                  //result番目の値を配列から引っ張ってきてコンソールに出す
