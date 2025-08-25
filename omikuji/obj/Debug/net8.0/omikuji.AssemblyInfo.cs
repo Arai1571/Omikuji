@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("omikuji")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55c782769ff99082a13ea0830f9aac5e173cb3fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa5da1f53b7eb604976fd21b326447ca4bc18444")]
 [assembly: System.Reflection.AssemblyProductAttribute("omikuji")]
 [assembly: System.Reflection.AssemblyTitleAttribute("omikuji")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
