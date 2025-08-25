@@ -19,7 +19,7 @@ for (int i = 0; i < 100; i++)
 
     //result番目の値を配列から引っ張ってきてコンソールに出す
     Console.WriteLine(omikuji[result]);
-    //resultで引いた結果の番号を何回引いたかカウント
+    //resultで引いた結果の番号を（何を何回引いたか）カウント
     count[result]++;
 }
 
@@ -32,8 +32,14 @@ for (int i = 0; i < 100; i++)
 // }
 
 Console.WriteLine("\n=== 集計結果 ===");
+
 // 配列countの結果を順番に発表
-for (int i = 0; i < omikuji.Length; i++)
+for (int i = 0; i < count.Length;i++)
 {
-    Console.WriteLine($"{omikuji[i]}: {count[i]}回");
+    Console.WriteLine(omikuji[i]+"は"+count[i]+"回引きました");
 }
+
+// for (int i = 0; i < omikuji.Length; i++)
+// {
+//     Console.WriteLine($"{omikuji[i]}: {count[i]}回");
+// }
